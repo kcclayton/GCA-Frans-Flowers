@@ -1,26 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 /* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: royalblue;
+  margin: 16px;
+  color: #8e4b10;
   text-align: center;
-  background-color: bisque;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: rgb(255, 248, 240);
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Typography */
+h1 {
+  color: #737157;
+  font-size: 3rem;
+  font-family: "Fascinate", cursive, "Fira Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+p #tagline {
+  font-size: 8px;
+  font-style: italic;
+  margin-bottom: 48px;
+}
+
+h2 {
+  color: #737157;
+  font-size: 2rem;
+  font-family: "Fascinate", cursive, "Fira Sans", sans-serif;
+  margin-bottom: 16px;
+}
 
 /* Links & Accents */
+h1 .accent {
+  color: #7e2a55;
+}
+
+h2 .accent {
+  color: #7e2a55;
+}
 
 /* Images */
 
 /* Hero Section */
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.header p {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.hero-img-container {
+  flex: 1;
+  width: 40em;
+  border-radius: 30px;
+  border: 1px solid rgb(216, 203, 189);
+  background-color: rgb(237, 219, 198);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-img {
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.hero-text {
+  font-size: 1.25em;
+  width: 50%;
+  text-align: left;
+}
 
 /* Main Content */
 
 /* About Section */
 
 /* Specials Section */
+.specials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.specials h2 {
+  margin-bottom: 36px;
+}
+
+.specials-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.special-offer {
+  flex: 1;
+  border-radius: 20px;
+  border: 1px solid rgb(216, 203, 189);
+  background-color: rgb(237, 219, 198);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.special-offer img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.special-offer h3 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+
+.price-now {
+  color: #7e2a55;
+  font-weight: bold;
+}
+
+.price-was {
+  color: #737157;
+  text-decoration: line-through;
+  font-size: 0.9em;
+}
 
 /* Visit Us Section */
+.visit-us {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 15%;
+
+}
+
+.visit-info {
+  flex: 1;
+  text-align: left;
+  padding: 16px;
+}
+
+.map-container {
+  margin-top: 24px;
+  width: auto;
+}
+
 
 iframe {
   width: 100%;
